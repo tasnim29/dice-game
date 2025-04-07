@@ -4,7 +4,7 @@ import Cover from "./components/Cover/Cover";
 import Gameplay from "./components/Gameplay/Gameplay";
 
 function App() {
-  const [page, setPage] = useState(false);
+  const [page, setPage] = useState(true);
   const handleChangePage = () => {
     setPage(!page);
   };

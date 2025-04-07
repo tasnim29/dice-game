@@ -13,8 +13,8 @@ const Gameplay = ({
   resetScore,
 }) => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-slate-300 to-gray-300">
-      <div className="flex justify-around items-center">
+    <div className=" min-h-screen bg-gradient-to-br from-white via-slate-300 to-gray-300">
+      <div className="flex flex-wrap gap-5 justify-around items-center">
         <TotalScore score={score}></TotalScore>
         <SelectNumber
           handleNumberButton={handleNumberButton}

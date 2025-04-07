@@ -22,7 +22,7 @@ const SelectNumber = ({ handleNumberButton, numberButton, error }) => {
       </div>
       {error && (
         <div>
-          <h1 className="bg-teal-900 p-5 text-white text-2xl mt-5 rounded-lg">
+          <h1 className="bg-black p-5 text-white text-2xl mt-5 rounded-lg">
             {error}
           </h1>
         </div>

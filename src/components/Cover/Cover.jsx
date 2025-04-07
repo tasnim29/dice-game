@@ -2,7 +2,7 @@ import React from "react";
 
 const Cover = ({ handleChangePage }) => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-black via-zinc-800 to-gray-900">
+    <div className="flex flex-wrap justify-center items-center min-h-screen bg-gradient-to-br from-black via-zinc-800 to-gray-900">
       <img src="/banner.png" alt="" />
 
       <div className="flex flex-col items-end">
