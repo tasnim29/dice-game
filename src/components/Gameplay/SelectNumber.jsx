@@ -4,7 +4,7 @@ const SelectNumber = ({ handleNumberButton, numberButton, error }) => {
   const boxes = [1, 2, 3, 4, 5, 6];
   return (
     <div>
-      <div className="flex gap-5">
+      <div className="flex flex-wrap px-5 gap-5">
         {boxes.map((box, index) => (
           <button
             onClick={() => handleNumberButton(box)}
@@ -17,7 +17,7 @@ const SelectNumber = ({ handleNumberButton, numberButton, error }) => {
           </button>
         ))}
       </div>
-      <div className="flex justify-end text-2xl font-bold">
+      <div className="flex flex-wrap justify-end text-2xl font-bold">
         <h1>Select Number</h1>
       </div>
       {error && (
